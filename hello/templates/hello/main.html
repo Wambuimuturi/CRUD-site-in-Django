@@ -1,0 +1,9 @@
+<li><p><a href="/hello">Test the session</a></p>
+	<p><a href="{% url 'hello:cookie-url' %}">I made it!</a></p>
+	<p><a href="{% url 'hello:session-url' %}">view count</a></p></li>
+
+
+<!-- Now that should work
+	I made it :- will point to /hello/cookies/
+	View count :- will point to /hello/sessfun/
+ -->
